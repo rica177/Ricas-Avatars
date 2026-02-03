@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kipfel Avatars | Rica's Avatars!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1><i class="fas fa-robot"></i> Rica's Avatars!</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="kipfel.html" class="active"><i class="fas fa-cat"></i> Kipfel</a></li>
+                <li><a href="mamehinata.html"><i class="fas fa-dragon"></i> Mamehinata</a></li>
+                <li><a href="information.html"><i class="fas fa-info-circle"></i> Information</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h2><i class="fas fa-cat"></i> Kipfel Avatars</h2>
+            <p>Click on any avatar name below to view more details</p>
+        </div>
+    </section>
+
+    <section class="avatars-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Kipfel Collection</h2>
+                <div class="underline"></div>
+                <p>My collection of Kipfel-style avatars</p>
+            </div>
+            
+            <div class="avatars-grid">
+                <div class="avatar-card">
+                    <div class="avatar-image">
+                        <div class="img-placeholder kipfel-img">
+                            <i class="fas fa-crab"></i>
+                        </div>
+                        <div class="avatar-badge">Popular</div>
+                    </div>
+                    <div class="avatar-info">
+                        <h3><a href="#" class="avatar-link" onclick="showAvatarDetails('Crabcore Kipfel')">Crabcore Kipfel</a></h3>
+                        <p>Kipfel with crab-inspired elements and accessories. Perfect for beach-themed worlds!</p>
+                        <div class="avatar-tags">
+                            <span class="tag">Cute</span>
+                            <span class="tag">Aquatic</span>
+                            <span class="tag">Accessorized</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="avatar-card">
+                    <div class="avatar-image">
+                        <div class="img-placeholder kipfel-img">
+                            <i class="fas fa-fish"></i>
+                        </div>
+                        <div class="avatar-badge">New</div>
+                    </div>
+                    <div class="avatar-info">
+                        <h3><a href="#" class="avatar-link" onclick="showAvatarDetails('Blahaj Kipfel')">Blahaj Kipfel</a></h3>
+                        <p>Shark-themed Kipfel with a soft, huggable design. Comes with a mini Blahaj plushie!</p>
+                        <div class="avatar-tags">
+                            <span class="tag">Shark</span>
+                            <span class="tag">Soft</span>
+                            <span class="tag">Plushie</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="avatar-card">
+                    <div class="avatar-image">
+                        <div class="img-placeholder kipfel-img">
+                            <i class="fas fa-bread-slice"></i>
+                        </div>
+                    </div>
+                    <div class="avatar-info">
+                        <h3><a href="#" class="avatar-link" onclick="showAvatarDetails('Paniell Kipfel')">Paniell Kipfel</a></h3>
+                        <p>Bakery-inspired Kipfel with bread and pastry elements. Smells like fresh cookies!</p>
+                        <div class="avatar-tags">
+                            <span class="tag">Bakery</span>
+                            <span class="tag">Sweet</span>
+                            <span class="tag">Foodie</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="avatar-card">
+                    <div class="avatar-image">
+                        <div class="img-placeholder kipfel-img">
+                            <i class="fas fa-moon"></i>
+                        </div>
+                    </div>
+                    <div class="avatar-info">
+                        <h3><a href="#" class="avatar-link" onclick="showAvatarDetails('Lunar Kipfel')">Lunar Kipfel</a></h3>
+                        <p>Space-themed Kipfel with galaxy patterns and star accessories.</p>
+                        <div class="avatar-tags">
+                            <span class="tag">Space</span>
+                            <span class="tag">Galaxy</span>
+                            <span class="tag">Celestial</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="avatar-card">
+                    <div class="avatar-image">
+                        <div class="img-placeholder kipfel-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                    </div>
+                    <div class="avatar-info">
+                        <h3><a href="#" class="avatar-link" onclick="showAvatarDetails('Gamer Kipfel')">Gamer Kipfel</a></h3>
+                        <p>Kipfel dressed in gaming gear with controller accessories.</p>
+                        <div class="avatar-tags">
+                            <span class="tag">Gaming</span>
+                            <span class="tag">Tech</span>
+                            <span class="tag">RGB</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="avatar-card">
+                    <div class="avatar-image">
+                        <div class="img-placeholder kipfel-img">
+                            <i class="fas fa-rainbow"></i>
+                        </div>
+                    </div>
+                    <div class="avatar-info">
+                        <h3><a href="#" class="avatar-link" onclick="showAvatarDetails('Pride Kipfel')">Pride Kipfel</a></h3>
+                        <p>Rainbow-themed Kipfel celebrating diversity and inclusion.</p>
+                        <div class="avatar-tags">
+                            <span class="tag">Rainbow</span>
+                            <span class="tag">Pride</span>
+                            <span class="tag">Colorful</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="back-to-home">
+                <a href="index.html" class="btn"><i class="fas fa-arrow-left"></i> Back to Home</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avatar Details Modal -->
+    <div id="avatarModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modalAvatarContent">
+                <h2 id="modalAvatarTitle">Avatar Details</h2>
+                <div class="modal-avatar-info">
+                    <p>Click on an avatar name to see details here!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3><i class="fas fa-robot"></i> Rica's Avatars!</h3>
+                    <p>Creating unique avatars for virtual worlds</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="kipfel.html">Kipfel</a></li>
+                        <li><a href="mamehinata.html">Mamehinata</a></li>
+                        <li><a href="information.html">Information</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Me</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Rica's Avatars! | All avatars are my original creations</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
